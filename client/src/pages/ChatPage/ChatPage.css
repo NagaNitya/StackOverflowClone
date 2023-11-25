@@ -1,0 +1,78 @@
+.title{
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.info{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.chat-container{
+    margin-top: 100px;
+    width: 100%;
+    border: none;
+    height: 300px;
+}
+
+.cs-main-container{
+    border: 0px;
+}
+
+.cs-chat-container{
+    border: 0px;
+} 
+
+.cs-message__content{
+    background-color: rgb(239, 130, 52, 0.5)
+}
+
+.cs-message-list .cs-message.cs-message--outgoing .cs-message__content{
+    background-color: rgb(0, 157, 255, 0.5)
+}
+
+.cs-chat-container .cs-message-input{
+    border-top:solid 1px rgb(112, 146, 174);
+    border-right:solid 1px #a1b4c3;
+    border-bottom:solid 1px #a1b4c3;
+    border-left:solid 1px #a1b4c3;
+    border-radius: 10px;
+    padding: 3px;
+}
+.cs-message-input__tools {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.cs-message-input__content-editor-wrapper, .cs-message-input__content-editor-container{
+    background-color: white;
+}
+
+.cs-message-input__content-editor{
+    background-color: white;
+}
+
+.cs-message-input__tools:first-child .cs-button:first-child{
+    display: none;
+}
+
+.main-container{
+    margin-top: 100px;
+}
+
+.verify-info{
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.verify-btn{
+    padding: 14px 10px;
+    background-color: #0a95ff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 20px;
+}
