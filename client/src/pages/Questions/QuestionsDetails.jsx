@@ -20,7 +20,7 @@ const QuestionsDetails = () => {
     const User = useSelector((state) => (state.currentUserReducer))
     const dispatch = useDispatch()
     const location = useLocation()
-    const url= "http://localhost:3000"
+    const url= "https://stck-overflow-clone.vercel.app"
 
     const handlePostAns = (e, answerLength) => {
         e.preventDefault()
