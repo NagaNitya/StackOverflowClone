@@ -32,6 +32,7 @@ const Verification = ({verify, setVerify}) =>{
     }
 
     function onSignup() {
+      
         onCaptchVerify();
     
         const appVerifier = window.recaptchaVerifier;
@@ -45,8 +46,7 @@ const Verification = ({verify, setVerify}) =>{
           })
           .catch((error) => {
             console.log(error);
-          });
-        
+          });       
     }
 
     function onOTPVerify() {

@@ -11,8 +11,8 @@ const DisplayQuestion = () => {
             <LeftSidebar/>
             <div className='home-container-2'>
                 <QuestionsDetails />
-                <RightSidebar/>
             </div>
+            <RightSidebar/>
         </div>
     )
 }

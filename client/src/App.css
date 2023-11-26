@@ -8,8 +8,8 @@
 }
 
 .home-container-2{
-    min-width: 800px;
-    width: calc(100%-164px); 
+    width: 750px;
+    /* width: calc(100%-164px);  */
     border: none;
     padding: 24px;
     box-sizing: border-box;
