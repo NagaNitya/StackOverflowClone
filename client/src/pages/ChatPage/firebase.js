@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBziRTvb3BvBZrfo3mCLZAGPSfmHXyxP4I",
+  apiKey: "api_key",
   authDomain: "stack-verification.firebaseapp.com",
   projectId: "stack-verification",
   storageBucket: "stack-verification.appspot.com",
-  messagingSenderId: "800153300782",
-  appId: "1:800153300782:web:ac0e72c9e2ff4baa3c14bf"
+  messagingSenderId: "sender_id",
+  appId: "app_id"
 };
 
 const app = initializeApp(firebaseConfig);

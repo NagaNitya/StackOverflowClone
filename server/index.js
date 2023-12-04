@@ -24,7 +24,7 @@ app.use('/answer', answerRoutes)
 
 const PORT = process.env.PORT || 5000
 
-//const CONNECTION_URL = "mongodb+srv://naganitya:nitya@stack-overflow-clone.caoms6j.mongodb.net/?retryWrites=true&w=majority"
+
 const DATABASE_URL = process.env.CONNECTION_URL
 
 mongoose.connect( DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
